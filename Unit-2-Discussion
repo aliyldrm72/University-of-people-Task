@@ -1,0 +1,101 @@
+Example of a While Loop:
+
+```
+int i = 0;
+while (i < 5) {
+  cout << i << endl;
+  i++;
+}
+```
+
+Equivalent Do-While Loop:
+
+```
+int i = 0;
+do {
+  cout << i << endl;
+  i++;
+} while (i < 5);
+```
+
+Equivalent For Loop:
+
+```
+for (int i = 0; i < 5; i++) {
+  cout << i << endl;
+}
+```
+
+In this example, the while loop will execute as long as the condition `i < 5` is true. The equivalent do-while loop will execute at least once, even if the condition is initially false. The for loop is a compact way of writing a loop that initializes the counter variable, checks the condition, and increments the counter.
+
+Example of a Do-While Loop:
+
+```
+int num;
+do {
+  cout << "Enter a positive number: ";
+  cin >> num;
+} while (num <= 0);
+```
+
+Equivalent While Loop:
+
+```
+int num;
+cout << "Enter a positive number: ";
+cin >> num;
+while (num <= 0) {
+  cout << "Enter a positive number: ";
+  cin >> num;
+}
+```
+
+Equivalent For Loop:
+
+```
+int num = -1;
+for (; num <= 0; ) {
+  cout << "Enter a positive number: ";
+  cin >> num;
+}
+```
+
+In this example, the do-while loop will execute at least once, prompting the user to enter a positive number. The equivalent while loop checks the condition first, and then prompts the user to enter a positive number if the initial input is invalid. The for loop uses a counter variable initialized to an invalid value and checks the condition at the start of each iteration.
+
+Example of a For Loop:
+
+```
+for (int i = 0; i < 10; i++) {
+  cout << i << endl;
+}
+```
+
+Equivalent While Loop:
+
+```
+int i = 0;
+while (i < 10) {
+  cout << i << endl;
+  i++;
+}
+```
+
+Equivalent Do-While Loop:
+
+```
+int i = 0;
+do {
+  cout << i << endl;
+  i++;
+} while (i < 10);
+```
+
+In this example, the for loop is a concise way of writing a loop that initializes a counter variable, checks the condition, and increments the counter. The equivalent while loop and do-while loop perform the same task but require more lines of code to accomplish the same thing.
+
+Advantages and Disadvantages of Each Looping Structure:
+
+The while loop is useful when the number of iterations is unknown, and the loop continues until a specific condition is met. The do-while loop is similar but guarantees that the loop executes at least once, making it useful when the condition is initially false. The for loop is best when the number of iterations is known, and the loop counter follows a specific pattern. The disadvantage of the for loop is that it may not be the best choice when the number of iterations is unknown or when the loop counter follows a complex pattern.
+
+In terms of performance, the for loop is generally the fastest looping structure since it initializes the counter variable, checks the condition, and increments the counter in a single statement. However, the while and do-while loops may be more flexible since they do not require a specific counter variable, allowing the loop to be controlled by other conditions. The disadvantage of the while and do-while loops is that they can create infinite loops if the condition is never met or if the loop exit condition is not specified correctly. 
+
+In summary, each looping structure has its advantages and disadvantages, and the choice of which to
