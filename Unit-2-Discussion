@@ -98,4 +98,4 @@ The while loop is useful when the number of iterations is unknown, and the loop 
 
 In terms of performance, the for loop is generally the fastest looping structure since it initializes the counter variable, checks the condition, and increments the counter in a single statement. However, the while and do-while loops may be more flexible since they do not require a specific counter variable, allowing the loop to be controlled by other conditions. The disadvantage of the while and do-while loops is that they can create infinite loops if the condition is never met or if the loop exit condition is not specified correctly. 
 
-In summary, each looping structure has its advantages and disadvantages, and the choice of which to
+
